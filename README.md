@@ -17,7 +17,9 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 
 - Agrega un botón para el tratamiento de números decimales.
 
-- Deberá de tener también un botón de **memoria** de resultados y otro para cambiar el **signo** de los operandos en otra fila superior.
+- Deberá de tener también dos botones de **memoria** para almacenar y sumar resultados (M+), borrarlos (MC).
+
+- Deberá de tener otro botón para cambiar el **signo** de los operandos en otra fila superior.
 
 > Nota: No olvides generar el fichero *jar* correspondiente para ejecutar la aplicación.
 
@@ -40,8 +42,8 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 | CP-009       | Operación con números decimales                  | 2.5 + 1.5 =        | 4.0            |           |
 | CP-010       | Borrar resultados                                | 5 + 3, luego C     | Pantalla vacía |           |
 | CP-011       | Uso del botón igual sin operación                | =                  | Mismo número   |           |
-| CP-012       | Guardar número en memoria (M+)                   | 6, M+              | Memoria = 6    |           |
-| CP-013       | Restar número en memoria (M-)                    | 3, M-              | Memoria -= 3   |           |
+| CP-012       | Guardar/sumar número en memoria (M+)             | 6, M+              | Memoria = +6   |           |
+| CP-013       | Borrar número en memoria (MC)                    | MC                 | Memoria =0     |           |
 | CP-014       | Recuperar número de memoria                      | MR                 | Último valor M |           |
 | CP-015       | Cambio de signo positivo a negativo              | 5, +/-             | -5             |           |
 | CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
