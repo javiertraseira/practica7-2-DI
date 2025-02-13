@@ -1,7 +1,7 @@
 # Práctica 7.2 Calculadora en JavaFX
 
 ## Parte 1
-Partiendo del ejercicio anterior crea una **calculadora sencilla** en JavaFX utilizando las operaciones habituales (suma, resta, multiplicación y división) así como un botón de reseteo:
+Partiendo del ejercicio anterior crea una **calculadora sencilla** en JavaFX utilizando las operaciones habituales (suma, resta, multiplicación y división) así como un botón de reseteo (C):
 
 - Ayúdate para ello del editor de **Scene Builder** y crea un contenedor *VBox* con tantas filas de *HBox* como filas de botoneras vayas a crear, con espacio entre ellas, así como un 'display' superior.
 - Ten en cuenta que la división por cero deberá de mostrar un error.
@@ -10,12 +10,12 @@ Partiendo del ejercicio anterior crea una **calculadora sencilla** en JavaFX uti
 
 ## Parte 2
 
-Mejora la calculadora anterior aplicándole estilos CSS para mejorar su apariencia y para que admita la utilización de **decimales** con un botón para ello:
+Mejora la calculadora anterior aplicándole **estilos CSS** para mejorar su apariencia y para que admita la utilización de **decimales** con un botón para ello:
 
-- Agrega estilo y colores mediante *CSS* así como un icono de aplicación, tendiendo siempre en cuenta su **usabilidad/accesibilidad**. 
-Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio basándose en la accesibilidad ya estudiada)
+- Agrega estilo y colores mediante *CSS* así como un **icono de aplicación**. Ten en cuenta su **usabilidad/accesibilidad**. 
+Se adjunta una captura de ejemplo (no copiar literalmente; usa tu propio estilo basándose en la usabilidad/accesibilidad ya estudiada)
 
-- Agrega un botón para el tratamiento de números decimales.
+- Agrega un botón para agregar números decimales.
 
 - Deberá de tener también dos botones de **memoria** para almacenar/sumar resultados (*M+*) y otro para borrarlos (*MC*).
 
