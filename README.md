@@ -17,7 +17,7 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 
 - Agrega un botón para el tratamiento de números decimales.
 
-- Deberá de tener también dos botones de **memoria** para almacenar y sumar resultados (M+), borrarlos (MC).
+- Deberá de tener también dos botones de **memoria** para almacenar/sumar resultados (*M+*) y otro para borrarlos (*MC*).
 
 - Deberá de tener otro botón para cambiar el **signo** de los operandos en otra fila superior.
 
