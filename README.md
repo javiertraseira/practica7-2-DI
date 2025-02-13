@@ -26,7 +26,6 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 
 ## Pruebas (testing)
 
-# Tabla de Pruebas - Calculadora en JavaFX
 
 | ID Caso Prueba | Descripción Caso de Prueba                         | Entrada            | Salida Esperada | Resultado |
 |---------------|-------------------------------------------------|--------------------|----------------|-----------|
