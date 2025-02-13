@@ -45,6 +45,6 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 | CP-014       | Recuperar número de memoria                      | MR                 | Último valor M |           |
 | CP-015       | Cambio de signo positivo a negativo              | 5, +/-             | -5             |           |
 | CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
-| CP-017       | Los colores y tamaños cumplen criterios de usabilidad/ accesbilidad    | N/D           |    |      |
-| CP-017       | Estructura del proyecto                          | N/D                | Se utiliza la división por paquetes MVC; VistaControlador y Modelo para organizar las clases usando el modelo de objetos de forma apropiada |     |
-| CP-018       | Comprobación fichero `jar`                       | Proyecto compilado | Se genera y prueba el fichero `jar` empaquetado |  |
+| CP-017       | Los colores y tamaños de los botones cumplen criterios de usabilidad/accesibilidad    | N/D           |    |      |
+| CP-017       | Estructura del proyecto                          | N/D                | Se utiliza la división por paquetes MVC; VistaControlador y Modelo para organizar las clases usando el modelo de objetos de forma apropiada. |     |
+| CP-018       | Comprobación fichero `jar`                       | Proyecto compilado | Se genera y prueba el fichero `jar` empaquetado. |  |
