@@ -4,6 +4,7 @@
 Partiendo del ejercicio anterior crea una **calculadora sencilla** en JavaFX utilizando las operaciones habituales (suma, resta, multiplicación y división) así como un botón de reseteo:
 
 - Ayúdate para ello del editor de **Scene Builder** y crea un contenedor *VBox* con tantas filas de *HBox* como filas de botoneras vayas a crear, con espacio entre ellas, así como un 'display' superior.
+- Ten en cuenta que la división por cero deberá de mostrar un error.
 
 ![](media/2fa660d73bf53b39aeb4ea7aabc963ee.png)
 
@@ -22,3 +23,29 @@ Se adjunta una captura de ejemplo (no copiar literalmente, usar un estilo propio
 
 
 ![](media/2023-02-13_14_21_01.png)
+
+## Pruebas (testing)
+
+# Tabla de Pruebas - Calculadora en JavaFX
+
+| ID Caso Prueba | Descripción Caso de Prueba                         | Entrada            | Salida Esperada | Resultado |
+|---------------|-------------------------------------------------|--------------------|----------------|-----------|
+| CP-001       | Suma de dos números positivos                    | 5 + 3 =            | 8              |           |
+| CP-002       | Suma de número positivo y negativo               | 7 + (-2) =         | 5              |           |
+| CP-003       | Resta de dos números                             | 9 - 4 =            | 5              |           |
+| CP-004       | Multiplicación de dos números positivos          | 6 * 3 =            | 18             |           |
+| CP-005       | Multiplicación con un número negativo            | 4 * (-2) =         | -8             |           |
+| CP-006       | División de dos números                          | 8 / 2 =            | 4              |           |
+| CP-007       | División entre cero                              | 5 / 0 =            | Error          |           |
+| CP-008       | Agregar decimal a un número                      | 3.5                | 3.5            |           |
+| CP-009       | Operación con números decimales                  | 2.5 + 1.5 =        | 4.0            |           |
+| CP-010       | Borrar resultados                                | 5 + 3, luego C     | Pantalla vacía |           |
+| CP-011       | Uso del botón igual sin operación                | =                  | Mismo número   |           |
+| CP-012       | Guardar número en memoria (M+)                   | 6, M+              | Memoria = 6    |           |
+| CP-013       | Restar número en memoria (M-)                    | 3, M-              | Memoria -= 3   |           |
+| CP-014       | Recuperar número de memoria                      | MR                 | Último valor M |           |
+| CP-015       | Cambio de signo positivo a negativo              | 5, +/-             | -5             |           |
+| CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
+| CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
+| CP-017       | Estructura del proyecto                          | N/D                | Se utiliza la división por paquetes MVC; VistaControlador y Modelo para organizar las clases usando el modelo de objetos de forma apropiada |     |
+| CP-018       | Comprobación fichero `jar`                       | Proyecto compilado | Se genera y prueba el fichero `jar` empaquetado |  |
