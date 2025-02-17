@@ -47,6 +47,8 @@ Se adjunta una captura de ejemplo (no copiar literalmente; usa tu propio estilo 
 | CP-014       | Recuperar número de memoria                      | MR                 | Último valor M |           |
 | CP-015       | Cambio de signo positivo a negativo              | 5, +/-             | -5             |           |
 | CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
-| CP-017       | Los colores y tamaños de los botones cumplen criterios de usabilidad/accesibilidad    | N/D           |    |      |
-| CP-017       | Estructura del proyecto                          | N/D                | Se utiliza la división por paquetes MVC; VistaControlador y Modelo para organizar las clases. |     |
-| CP-018       | Comprobación fichero `jar`                       | Proyecto compilado | Se genera y prueba el fichero `jar` empaquetado. |  |
+| CP-017       | Presionar dos veces botón igual                  | = =                | mantiene valor |           |
+| CP-018       | Presionar botón operación dos veces              | + *                | cambia + a *   |           |
+| CP-019       | Los colores y tamaños de los botones cumplen criterios de usabilidad/accesibilidad    | N/D           |    |      |
+| CP-020       | Estructura del proyecto                          | N/D                | Se utiliza la división por paquetes MVC; VistaControlador y Modelo para organizar las clases. |     |
+| CP-021       | Comprobación fichero `jar`                       | Proyecto compilado | Se genera y prueba el fichero `jar` empaquetado. |  |
