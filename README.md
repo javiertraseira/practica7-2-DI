@@ -43,7 +43,7 @@ Se adjunta una captura de ejemplo (no copiar literalmente; usa tu propio estilo 
 | CP-010       | Borrar resultados                                | 5 + 3, luego C     | Pantalla vacía |           |
 | CP-011       | Uso del botón igual sin operación                | =                  | Mismo número   |           |
 | CP-012       | Guardar/sumar número en memoria (M+)             | 6, M+              | Memoria = +6   |           |
-| CP-013       | Borrar número en memoria (MC)                    | MC                 | Memoria = 0    |           |
+| CP-013       | Borrar número en memoria (MR)                    | MC                 | Memoria = 0    |           |
 | CP-014       | Recuperar número de memoria                      | MR                 | Último valor M |           |
 | CP-015       | Cambio de signo positivo a negativo              | 5, +/-             | -5             |           |
 | CP-016       | Cambio de signo negativo a positivo              | -7, +/-            | 7              |           |
